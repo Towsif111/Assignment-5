@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Issues Tracker</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<body class="min-h-screen bg-slate-50">
+  <!-- Navbar -->
+  <nav class="bg-white border-b border-slate-200">
+    <div class="w-full px-6 py-3 flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-full text-white flex items-center justify-center"><img src="./assets/github-logo.png" alt=""></div>
+        <div class="font-semibold text-2xl text-left text-[#1f2937]">GitHub Issues Tracker</div>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <input id="searchInput"
+               class="rounded-md border border-slate-200 px-2 py-2 outline-none text-sm w-52" placeholder="Search issues..." />
+               
+        <button id="newIssueBtn" class="btn btn-primary px-4 py-2 text-base font-semibold">+ New Issue</button>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+</body>
+</html>
