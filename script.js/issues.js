@@ -17,7 +17,7 @@ let allIssues = [];
 let currentTab = "all";
 
 const requireAuth = () => {
-  const ok = localStorage.getItem("isAuthed") === "true";
+  const ok = sessionStorage.getItem("isAuthed") === "true";
   if (!ok) window.location.href = "./index.html";
 };
 
